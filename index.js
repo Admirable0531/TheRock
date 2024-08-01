@@ -5,7 +5,7 @@ const fs = require('node:fs');
 const cron = require('node-cron');
 
 // Import the dotenv library
-require('dotenv').config({ path: path.resolve(__dirname, '../.env') });
+require('dotenv').config({ path: path.resolve(__dirname, '.env') });
 
 // Access the token from the environment variable
 const token = process.env.DISCORD_TOKEN;
